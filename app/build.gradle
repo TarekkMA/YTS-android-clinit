@@ -25,8 +25,11 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
     compile 'com.android.support:recyclerview-v7:+'
+<<<<<<< HEAD
     compile 'com.android.support:cardview-v7:23.1.1'
 
+=======
+>>>>>>> 4ffab85756d1e8208246275d101b1d9ec1e80c8f
 
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'

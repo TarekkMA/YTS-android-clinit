@@ -15,10 +15,15 @@ import retrofit2.http.Query;
  * Created by tarekkma on 2/21/16.
  */
 public interface YTS {
+<<<<<<< HEAD
     @GET("list_movies.json?limit=30")
     Call<ListResponse> getListByPage(@Query("page")int p);
 
     @GET("movie_details.json?with_images=true&with_cast=true")
     Call<ListResponse> getMovieDetiles(@Query("movie_id")int id);
 
+=======
+    @GET("list_movies.json")
+    Call<ListResponse> getListByPage(@Query("page")int p);
+>>>>>>> 4ffab85756d1e8208246275d101b1d9ec1e80c8f
 }

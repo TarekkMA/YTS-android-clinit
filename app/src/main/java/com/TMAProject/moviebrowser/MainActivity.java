@@ -4,9 +4,12 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+<<<<<<< HEAD
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+=======
+>>>>>>> 4ffab85756d1e8208246275d101b1d9ec1e80c8f
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
@@ -27,9 +30,13 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
+<<<<<<< HEAD
     RecyclerView list;
     private boolean loading = false;
     int pastVisiblesItems, visibleItemCount, totalItemCount;
+=======
+
+>>>>>>> 4ffab85756d1e8208246275d101b1d9ec1e80c8f
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+<<<<<<< HEAD
         list=(RecyclerView)findViewById(R.id.list);
        // FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 
@@ -52,6 +60,25 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+=======
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Genrator.createService(YTS.class).getListByPage(1).enqueue(new Callback<ListResponse>() {
+                    @Override
+                    public void onResponse(Call<ListResponse> call, Response<ListResponse> response) {
+                        Log.d("dddddd","re"+response.body().getData().getCount());
+                    }
+
+                    @Override
+                    public void onFailure(Call<ListResponse> call, Throwable t) {
+                        t.printStackTrace();
+                    }
+                });
+            }
+        });
+>>>>>>> 4ffab85756d1e8208246275d101b1d9ec1e80c8f
     }
 
     @Override
