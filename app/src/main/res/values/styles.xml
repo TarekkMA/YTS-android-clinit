@@ -16,13 +16,9 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-<<<<<<< HEAD
     <style name="foodRatingBar" parent="@android:style/Widget.RatingBar">
         <item name="android:progressDrawable">@drawable/ratingstar</item>
         <item name="android:minHeight">12dip</item>
         <item name="android:maxHeight">12dip</item>
     </style>
-=======
-
->>>>>>> 4ffab85756d1e8208246275d101b1d9ec1e80c8f
 </resources>

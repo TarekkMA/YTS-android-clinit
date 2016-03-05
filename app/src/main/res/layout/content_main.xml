@@ -11,10 +11,8 @@
     tools:showIn="@layout/activity_main">
 
     <android.support.v7.widget.RecyclerView
-<<<<<<< HEAD
         android:id="@+id/list"
-=======
->>>>>>> 4ffab85756d1e8208246275d101b1d9ec1e80c8f
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

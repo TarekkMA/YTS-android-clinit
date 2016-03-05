@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.TMAProject.moviebrowser">
-<<<<<<< HEAD
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-=======
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
->>>>>>> 4ffab85756d1e8208246275d101b1d9ec1e80c8f
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -28,10 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
         <activity android:name=".MovieDetails"></activity>
-=======
->>>>>>> 4ffab85756d1e8208246275d101b1d9ec1e80c8f
+
     </application>
 
 </manifest>

@@ -22,7 +22,6 @@ public class ListData {
     @SerializedName("movies")
     @Expose
     private List<Movies> movies = new ArrayList<Movies>();
-<<<<<<< HEAD
     @SerializedName("movie")
     @Expose
     private Movies movie;
@@ -34,8 +33,7 @@ public class ListData {
     public void setMovie(Movies movie) {
         this.movie = movie;
     }
-=======
->>>>>>> 4ffab85756d1e8208246275d101b1d9ec1e80c8f
+
 
     public int getCount() {
         return count;
